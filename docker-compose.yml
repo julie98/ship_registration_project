@@ -1,0 +1,38 @@
+version: '3'
+services:
+  atlas-local-db:
+    image: localhost:5000/atlas-local-db
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_PASSWORD=password
+    container_name: atlas-local-db
+
+  atlas-backend:
+    image: localhost:5000/atlas-backend:latest
+    ports:
+      - "8000:8000"
+    environment:
+      - MODE=dev
+    external_links:
+      - atlas_local_db:atlas_local_db
+    container_name: atlas-backend
+    depends_on:
+      - atlas-local-db
+    command: >
+        bash -c "wait-for-it/wait-for-it.sh atlas-local-db:5432 --
+        python manage.py migrate &&
+        python manage.py loaddata shipping_backend/fixtures/vessel_data.json &&
+        python manage.py loaddata shipping_backend/fixtures/user_data.json &&
+        python manage.py loaddata shipping_backend/fixtures/user_prof_data.json && 
+        python manage.py loaddata shipping_backend/fixtures/registration_data.json &&
+        python manage.py shell < init_users.py &&
+        python manage.py runserver 0.0.0.0:8000"
+
+  atlas-frontend:
+    image: localhost:5000/atlas-frontend:latest
+    ports:
+      - "3000:80"
+    environment:
+      - MODE=dev
+    container_name: atlas-frontend
