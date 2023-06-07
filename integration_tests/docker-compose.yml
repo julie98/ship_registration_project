@@ -1,0 +1,49 @@
+version: '3'
+services:
+  atlas-local-db:
+    image: git.ucsc.edu:5050/jvranek/team-atlas:db-integration
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_PASSWORD=password
+    container_name: atlas-local-db
+
+  atlas-backend:
+    image: git.ucsc.edu:5050/jvranek/team-atlas:backend-latest
+    ports:
+      - "8000:8000"
+    environment:
+      - MODE=dev
+    external_links:
+      - atlas_local_db:atlas_local_db
+    container_name: atlas-backend
+    depends_on:
+      - atlas-local-db
+    command: >
+        bash -c "wait-for-it/wait-for-it.sh atlas-local-db:5432 --
+        python manage.py migrate &&
+        python manage.py runserver 0.0.0.0:8000"
+
+  atlas-frontend:
+    image: git.ucsc.edu:5050/jvranek/team-atlas:frontend-latest
+    ports:
+      - "3000:3000"
+    environment:
+      - MODE=dev
+    container_name: atlas-frontend
+
+  atlas-e2e-test:
+    image: git.ucsc.edu:5050/jvranek/team-atlas:e2etest
+    external_links:
+      - atlas-frontend:atlas-frontend
+    container_name: atlas-e2e-test
+    depends_on:
+      - atlas-frontend
+      - atlas-backend
+    environment:
+      - FRONTEND_HOST=http://atlas-frontend
+    command: >
+      bash -c "wait-for-it/wait-for-it.sh -t 60 atlas-frontend:3000 --
+      wait-for-it/wait-for-it.sh -t 60 atlas-backend:8000 --
+      sleep 10 &&
+      python3.7 -m pytest"
