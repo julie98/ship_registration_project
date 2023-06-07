@@ -1,0 +1,185 @@
+.Broker {
+    padding-top: 100px !important;
+    padding-bottom: 20px !important;
+    text-align: center;
+}
+
+.Broker i.circular.icon {
+    box-shadow: 0 0 0 0.1em black inset !important;
+}
+
+.Broker-logo {
+    text-align: left;
+    height: 5vmin;
+    pointer-events: none;
+}
+
+.Broker h2 {
+    text-align: center;
+}
+
+.Broker img.Icon {
+    text-align: left;
+    width: 24px !important;
+    height: 24px !important;
+    pointer-events: none;
+    transform: translateY(-20%);
+}
+
+.Broker .Container {
+    display: inline-block!important;
+    text-align: right !important;
+    border-spacing: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Broker .btn-outline-info:hover img.Icon {
+    filter: invert(100%);
+}
+
+.Broker-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.Broker tr.Light_Green {
+    background-color: rgba(93, 228, 111, 0.10) !important;
+}
+
+.Broker tr.Light_Green:hover {
+    background-color: rgba(93, 228, 111, 0.5) !important;
+}
+
+.Broker .ourModal {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Broker .ourModal p {
+    padding-left: 10px;
+}
+
+.Broker .empty-outline {
+    border: 3px solid rgba(13, 15, 14, 0.1) !important;
+}
+
+.Broker .Card-Fill .Card-Group {
+    padding-top: 20px !important;
+}
+
+.Broker .Card-Fill .Table-Button {
+    transform: translateX(-100px);
+}
+
+.Broker .Card-Fill .Card-Group {
+    table-layout: fixed;
+    border-spacing: 10px;
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 500px) {
+    .Broker .Card-Fill .Card-Group {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-bottom: 10px !important;
+    }
+    .Broker .Card-Fill .Table-Button {
+        transform: translateX(-10px);
+    }
+    .Broker .Card-Fill .Card-Group {
+        border-spacing: 10px;
+        padding-left: 10px !important;
+        padding-right: 0px !important;
+    }
+}
+
+@media screen and (max-width: 770px){
+    .Broker .Card-Empty {
+        text-align: center;
+        padding-top: 12px !important;
+        padding-bottom: 10px;
+        
+    }
+    .Broker .Card-Empty .ui.stackable.cards>.card {
+        width : 304px !important;
+        height: 390px !important;
+        margin-bottom: 10px;
+    }
+
+}
+
+.Broker .vesselsCard {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+
+.Broker span.Vessel-Badge.badge.badge-pill  {
+    font-size: x-small;
+    transform: translateY(-10px);
+}
+
+.Broker span.Vessel-Badge.badge.badge-pill.badge-primary {
+    background-color: #bc10d3 !important;
+}
+
+.Broker span.Vessel-Badge.badge.badge-pill.badge-secondary {
+    background-color: #1daf5a !important;
+}
+
+.Broker span.Vessel-Badge.badge.badge-pill.badge-success {
+    background-color: #d31010 !important;
+}
+
+.Broker span.Vessel-Badge.badge.badge-pill.badge-info {
+    background-color: #1075d3 !important;
+}
+
+.Table-Dropdown {
+    text-align:center;
+}
+
+@media screen and (max-width: 500px) {
+    .Vessels-View-Tab div.ui.tabular.menu {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .Vessels-View-Table {
+        width: 100% !important;
+        max-width: 700px !important;
+        min-width: 700px !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .Vessels-View-Table {
+        width: 100% !important;
+        max-width: 320px !important;
+        min-width: 320px !important;
+    }
+}
+
+.Table-Dropdown-Vessels-List-Empty {
+    margin-right: 40px;
+}
+
+.Table-Dropdown-Vessels-List-Filled {
+    margin-right: 28px !important;
+    margin-bottom: 15px !important;
+}
+
+.Table-Button-Vessels-List-Filled {
+    margin-right: 28px !important;
+    margin-bottom: 15px !important;
+}

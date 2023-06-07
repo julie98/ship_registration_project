@@ -1,0 +1,31 @@
+/*
+ * Author: Christian Alexis Ocon
+ * File: Services.css
+ */
+
+.Services {
+    text-align: center;
+    padding-top: 100px !important;
+}
+.Services-logo {
+    text-align: left;
+    height: 5vmin;
+    pointer-events: none;
+}
+
+
+.Services-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.User-Scroll {
+    color: #00dafb;
+}
+

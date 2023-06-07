@@ -1,0 +1,327 @@
+
+.Signup h1,h2,h3,h4,h5,h6,label,span {
+  font-weight: 500;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.Signup html, .App, #root, .auth-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+#Section_Label{
+font-size: .9rem !important;
+font-weight: bold;
+font-family: 'Fira Sans', sans-serif;
+}
+
+.Signup  h3{
+font-weight: 500;
+font-family: 'Fira Sans', sans-serif;
+color: rgb(52, 74, 122);
+}
+.Signup  h3:after
+{
+content:'';
+display:block;
+margin-top: 2px;
+border:1px groove rgb(162, 202, 224);
+margin-bottom:  -17px;
+}
+
+.Signup label{
+font-size: .85rem !important;
+font-weight: normal;
+font-family: 'Fira Sans', sans-serif;
+margin-left: 10px;
+transform: translateY(-.08rem);
+}
+/*transform: translateY(.45rem);*/
+.Signup  b,p {
+text-align: center;
+font-size: 1rem;
+color: rgb(28, 52, 102);
+}
+.Signup  b::before,
+.Signup  b::after {
+display: inline-block;
+content: "";
+border-top: .1rem solid  rgb(28, 52, 102);;
+width: 1rem;
+margin: 0 .25rem;
+transform: translateY(-.25rem);
+}
+
+.navbar-light {
+  background-color: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+}
+
+.Signup .auth-wrapper {
+  padding-top: 0px !important;
+  margin-bottom: 100px !important;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+padding: 0px 3.75px !important;
+}
+.Signup .auth-inner {
+  width: 750px;
+  padding-top: 10px !important;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all .3s;
+}
+
+.Signup .ui.card{
+width: 200px !important;
+height: 350px !important;
+}
+
+body .Signup .ui.button.Close{
+background: #ffffff !important;
+color : red !important;
+transform: translateX(625px) !important;
+transform: translateY(1rem);
+}
+
+body .Signup .ui.button.Back{
+background: #ffffff !important;
+padding-left: 0px !important;
+transform: translate(-80px, -10px) !important;
+}
+
+.Signup .form-group .form-row{
+  flex-direction: row !important;
+}
+
+@media screen and (max-width: 850px) {
+
+  body .Signup .col-auto{
+    width: 100% !important;
+  }
+
+body .Signup  .ui.button.Close{
+    background: #ffffff !important;
+    color : red !important;
+    transform: translateX(325px) !important;
+    transform: translateY(1rem);
+}
+
+body .Signup .ui.button.Back{
+  background: #ffffff !important;
+  padding-left: 0px !important;
+  transform: translate(-80px, -10px) !important;
+}
+
+.Signup .auth-inner {
+    width: 450px !important;
+    padding-top: 10px !important;
+    margin: auto;
+    background: #ffffff;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    padding: 40px 55px 45px 55px;
+    border-radius: 15px;
+    transition: all .3s;
+}  
+}
+
+@media screen and (max-width: 770px) {
+  .Signup .form-group .form-row{
+    flex-direction: row!important;
+  }
+
+ .Signup .form-group .form-row .col-auto{
+  width: 100% !important;
+}
+
+body .Signup  .ui.button.Close{
+    background: #ffffff !important;
+    color : red !important;
+    transform: translateX(225px) !important;
+    transform: translateY(1rem);
+}
+body .Signup .ui.button.Back{
+  background: #ffffff !important;
+  padding-left: 0px !important;
+  transform: translate(-80px, -10px) !important;
+}
+.Signup .auth-inner {
+    width: 350px !important;
+    padding-top: 10px !important;
+    margin: auto;
+    background: #ffffff;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    padding: 40px 55px 45px 55px;
+    border-radius: 15px;
+    transition: all .3s;
+}
+
+
+
+}
+
+
+
+
+.Signup .auth-wrapper .form-control:focus {
+  border-color: #167bff;
+  box-shadow: none;
+}
+
+.Signup .auth-wrapper h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+.custom-control-label {
+  font-weight: 400;
+}
+
+.forgot-password text-right,
+.forgot-password text-right a {
+  text-align: right;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #7f7d7d;
+  margin: 0;
+}
+
+.forgot-password text-right a {
+  color: #167bff;
+}
+
+.user-type {
+  list-style-type: none;
+  margin: 25px 0 0 0;
+  padding: 0;
+  font-weight: 500;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.user-type li {
+  float: left;
+  margin: 0 5px 0 0;
+  width: 108px;
+  height: 40px;
+  position: relative;
+  font-weight: 500;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.user-type label,
+.user-type input {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-weight: 500;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.user-type input[type="radio"] {
+  opacity: 0.01;
+  z-index: 100;
+}
+
+.user-type input[type="radio"]:checked+label,
+.Checked+label {
+  background: #167bff;
+  color: #ffffff
+}
+
+.user-type label {
+  font-weight: 500;
+  font-family: 'Fira Sans', sans-serif;
+  padding: 5px;
+  border: 1px solid #CCC;
+  cursor: pointer;
+  z-index: 90;
+}
+
+.user-type label:hover {
+  background: #DDD;
+}
+
+.elig-type {
+  list-style-type: none;
+  margin: 25px 0 0 0;
+  padding: 0;
+  font-weight: 500;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.elig-type li {
+  float: center;
+  margin: 0 5px 0 0;
+  width: 339px;
+  height: 40px;
+  position: relative;
+  font-weight: 500;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.elig-type label,
+.elig-type input {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-weight: 500;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.elig-type input[type="radio"] {
+  opacity: 0.01;
+  z-index: 100;
+}
+
+.elig-type input[type="radio"]:checked+label,
+.Checked+label {
+  background: #167bff;
+  color: #ffffff
+}
+
+.elig-type label {
+  font-weight: 500;
+  font-family: 'Fira Sans', sans-serif;
+  padding: 5px;
+  border: 1px solid #CCC;
+  cursor: pointer;
+  z-index: 90;
+}
+
+.elig-type label:hover {
+  background: #DDD;
+}
+
+.Signup p{
+  margin-bottom: 0px!important;
+}
+input.error {
+  border: 1px solid red !important;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 0.75em;
+  display: relative;
+}
+
+.form-control.error.custom-select{
+  border: 1px solid red !important;
+}

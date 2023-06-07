@@ -1,0 +1,204 @@
+.Registrar {
+    padding-top: 100px !important;
+    text-align: left;
+}
+
+.Registrar h2 {
+    text-align: center;
+}
+
+body .Registrar .ui.breadcrumb {
+    text-align: left !important;
+    padding-left: 100px !important;
+}
+
+body .Registrar .breadcrumb {
+    background-color: white;
+}
+
+.Registrar-logo {
+    text-align: left;
+    height: 5vmin;
+    pointer-events: none;
+}
+
+.Registrar .ui.attached.segment {
+    border: 0px;
+}
+
+.Registrar-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.User-Scroll {
+    color: #00dafb;
+}
+
+.Registrar-table {
+    text-align: center;
+    table-layout: fixed;
+    border-spacing: 10px;
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+    width: 90% !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Registrar-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+th, td {
+    border: 1px solid black;
+    width: 150px;
+    overflow: hidden;
+    vertical-align: middle !important;
+}
+
+.ui.modal .scrolling.content {
+    max-height: calc(70vh) !important;
+    overflow: auto;
+}
+
+.ui.modal .scrolling.content p {
+    text-align: justify;
+}
+
+body .Registrar .ui.modal {
+    text-align: center !important;
+    top: 100px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: fixed;
+    width: 100% !important;
+    height: 100% !important;
+    background: none !important;
+}
+
+.Registrar .ui.form textarea {
+    border-radius: 0 !important;
+    border-color: rgba(255, 255, 255, 0.74);
+}
+
+.Registrar .ui.dimmer .ui.workaround.loader:before {
+    border-color: rgba(0, 0, 0, .1);
+}
+
+.ui.dimmer .ui.workaround.loader:after {
+    border-color: #767676 transparent transparent;
+}
+
+.ui.loader {
+    transform: translateY(-500%) !important;
+}
+
+.ui.dimmer .ui.loader {
+    color: black !important;
+}
+
+.Registrar .ui.inverted.dimmer .ui.large.loader, .ui.large.loader{
+    font-size: 2em !important;
+}
+
+.Registrar tr.Light_Green {
+    background-color: rgba(93, 228, 111, 0.10) !important;
+}
+
+.Registrar tr.Light_Green:hover {
+    background-color: rgba(93, 228, 111, 0.5) !important;
+}
+
+.Registrar span.Vessel-Badge.badge.badge-pill {
+    font-size: x-small;
+    transform: translateY(-10px);
+}
+
+.Registrar span.Vessel-Badge.badge.badge-pill.badge-primary {
+    background-color: #bc10d3 !important;
+}
+
+.Registrar span.Vessel-Badge.badge.badge-pill.badge-secondary {
+    background-color: #1daf5a !important;
+}
+
+.Registrar span.Vessel-Badge.badge.badge-pill.badge-success {
+    background-color: #d31010 !important;
+}
+
+.Registrar span.Vessel-Badge.badge.badge-pill.badge-info {
+    background-color: #1075d3 !important;
+}
+
+.Registrar .ui.table thead, th, td{
+    border: 1px solid rgba(34,36,38,.1) !important;
+}
+
+.Modal-Registered{
+    text-align: center !important;
+    max-width: 1500px !important;
+    min-width: 1500px !important;
+    padding-left: 200px !important;
+    padding-right: 200px !important;
+    box-shadow: none !important;
+}
+
+.Registered-Image{
+    padding-top: 10px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.Registered-Tab{
+    width : 100% !important;
+    padding-bottom: 10px; 
+    padding-left: 10px;
+}
+
+.Registered-Tab div.ui.bottom.attached.segment.active.tab{
+    border: 0px !important;
+}
+
+.Vessel-Registration-Table{
+    width: 100% !important;
+    max-width: 700px !important;
+    min-width: 700px !important;
+}
+
+.Survey-Table {
+    text-align: right !important;
+}
+
+.Survey-Table div.ui.mini.focus.action.left.icon.input.Icon-Search {
+    padding-right: 100px !important;
+}
+
+.Modal-Users {
+    /*text-align: center !important;*/
+    max-width: 450px !important;
+    min-width: 450px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    box-shadow: none !important;
+}
+
+.Modal-Users .header {
+    text-align: center;
+}

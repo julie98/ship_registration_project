@@ -1,0 +1,23 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: atlas-frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      component: atlas-frontend
+  template:
+    metadata:
+      labels:
+        component: atlas-frontend
+    spec:
+      containers:
+        - name: atlas-frontend
+          image: git.ucsc.edu:5050/jvranek/team-atlas:frontend-k8s-latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 80
+      restartPolicy: Always
+      imagePullSecrets:
+        - name: gitlab-auth
