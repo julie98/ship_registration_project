@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: atlas-backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      component: atlas-backend
+  template:
+    metadata:
+      labels:
+        component: atlas-backend
+    spec:
+      containers:
+        - name: atlas-backend
+          image: git.ucsc.edu:5050/jvranek/team-atlas:backend-latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8000
+          command: [ "/usr/src/app/entrypoint.sh" ]
+          env:
+            - name: POSTGRES_USER
+              valueFrom:
+                secretKeyRef:
+                  name: postgres-credentials
+                  key: user
+            - name: POSTGRES_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: postgres-credentials
+                  key: password
+            - name: POSTGRES_HOST
+              value: postgres-service
+            - name: REDIS_HOST
+              value: redis-service
+      restartPolicy: Always
+      imagePullSecrets:
+        - name: gitlab-auth

@@ -1,0 +1,257 @@
+[
+    {
+        "fields": {
+            "eligibility": 1,
+            "mailing_addr": [
+                "123 street, santa cruz"
+            ],
+            "phone_nbr": [
+                "123-456-7890"
+            ],
+            "user": 1,
+            "vessels_list": [
+                1
+            ]
+        },
+        "model": "shipping_backend.individual",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "eligibility": 1,
+            "mailing_addr": [
+                "123 street, santa cruz"
+            ],
+            "phone_nbr": [
+                "123-456-7890"
+            ],
+            "user": 2,
+            "vessels_list": [
+                2
+            ]
+        },
+        "model": "shipping_backend.individual",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "eligibility": 1,
+            "mailing_addr": [
+                "123 street, santa cruz"
+            ],
+            "phone_nbr": [
+                "123-456-7890"
+            ],
+            "user": 3,
+            "vessels_list": [
+                3
+            ]
+        },
+        "model": "shipping_backend.individual",
+        "pk": 3
+    },
+    {
+        "fields": {
+            "eligibility": 1,
+            "mailing_addr": [
+                "123 street, santa cruz"
+            ],
+            "phone_nbr": [
+                "123-456-7890"
+            ],
+            "user": 4,
+            "vessels_list": [
+                4
+            ]
+        },
+        "model": "shipping_backend.individual",
+        "pk": 4
+    },
+    {
+        "fields": {
+            "eligibility": 1,
+            "mailing_addr": [
+                "123 street, santa cruz"
+            ],
+            "phone_nbr": [
+                "123-456-7890"
+            ],
+            "user": 5,
+            "vessels_list": [
+                5
+            ]
+        },
+        "model": "shipping_backend.individual",
+        "pk": 5
+    },
+    {
+        "fields": {
+            "user": 6,
+            "vessels_list": [
+                6,
+                7,
+                8
+            ]
+        },
+        "model": "shipping_backend.broker",
+        "pk": 6
+    },
+    {
+        "fields": {
+            "user": 7,
+            "vessels_list": [
+                9,
+                10,
+                11
+            ]
+        },
+        "model": "shipping_backend.broker",
+        "pk": 7
+    },
+    {
+        "fields": {
+            "user": 8,
+            "vessels_list": [
+                12,
+                13,
+                14
+            ]
+        },
+        "model": "shipping_backend.broker",
+        "pk": 8
+    },
+    {
+        "fields": {
+            "user": 9,
+            "vessels_list": [
+                15,
+                16,
+                17
+            ]
+        },
+        "model": "shipping_backend.broker",
+        "pk": 9
+    },
+    {
+        "fields": {
+            "user": 10,
+            "vessels_list": [
+                18,
+                19,
+                20
+            ]
+        },
+        "model": "shipping_backend.broker",
+        "pk": 10
+    },
+    {
+        "fields": {
+            "eligibility": 1,
+            "tonnage": 1,
+            "user": 11,
+            "vessels_list": [
+                21,
+                22
+            ]
+        },
+        "model": "shipping_backend.commercial",
+        "pk": 11
+    },
+    {
+        "fields": {
+            "eligibility": 1,
+            "tonnage": 1,
+            "user": 12,
+            "vessels_list": [
+                23,
+                24
+            ]
+        },
+        "model": "shipping_backend.commercial",
+        "pk": 12
+    },
+    {
+        "fields": {
+            "eligibility": 1,
+            "tonnage": 1,
+            "user": 13,
+            "vessels_list": [
+                25,
+                26
+            ]
+        },
+        "model": "shipping_backend.commercial",
+        "pk": 13
+    },
+    {
+        "fields": {
+            "eligibility": 1,
+            "tonnage": 1,
+            "user": 14,
+            "vessels_list": [
+                27,
+                28
+            ]
+        },
+        "model": "shipping_backend.commercial",
+        "pk": 14
+    },
+    {
+        "fields": {
+            "eligibility": 1,
+            "tonnage": 1,
+            "user": 15,
+            "vessels_list": [
+                29,
+                30
+            ]
+        },
+        "model": "shipping_backend.commercial",
+        "pk": 15
+    },
+    {
+        "fields": {
+            "pending_vessels": [],
+            "reviewed_vessels": [],
+            "user": 16
+        },
+        "model": "shipping_backend.registrar",
+        "pk": 16
+    },
+    {
+        "fields": {
+            "pending_vessels": [],
+            "reviewed_vessels": [],
+            "user": 17
+        },
+        "model": "shipping_backend.registrar",
+        "pk": 17
+    },
+    {
+        "fields": {
+            "pending_vessels": [],
+            "reviewed_vessels": [],
+            "user": 18
+        },
+        "model": "shipping_backend.registrar",
+        "pk": 18
+    },
+    {
+        "fields": {
+            "pending_vessels": [],
+            "reviewed_vessels": [],
+            "user": 19
+        },
+        "model": "shipping_backend.registrar",
+        "pk": 19
+    },
+    {
+        "fields": {
+            "pending_vessels": [],
+            "reviewed_vessels": [],
+            "user": 20
+        },
+        "model": "shipping_backend.registrar",
+        "pk": 20
+    }
+]

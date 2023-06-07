@@ -1,0 +1,222 @@
+[
+    {
+        "fields": {
+            "first_name": "individual_first_name0",
+            "last_name": "individual_last_name0",
+            "password": "pbkdf2_sha256$216000$SxgXqgFLgmtI$ISaCd0HIZxzVsQ1zOrTw19HiVDP9u/k2Xl3eyEMK/xY=",
+            "user_type": 1,
+            "username": "individual0@test.com"
+        },
+        "model": "shipping_backend.user",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "first_name": "individual_first_name1",
+            "last_name": "individual_last_name1",
+            "password": "pbkdf2_sha256$216000$SxgXqgFLgmtI$ISaCd0HIZxzVsQ1zOrTw19HiVDP9u/k2Xl3eyEMK/xY=",
+            "user_type": 1,
+            "username": "individual1@test.com"
+        },
+        "model": "shipping_backend.user",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "first_name": "individual_first_name2",
+            "last_name": "individual_last_name2",
+            "password": "pbkdf2_sha256$216000$SxgXqgFLgmtI$ISaCd0HIZxzVsQ1zOrTw19HiVDP9u/k2Xl3eyEMK/xY=",
+            "user_type": 1,
+            "username": "individual2@test.com"
+        },
+        "model": "shipping_backend.user",
+        "pk": 3
+    },
+    {
+        "fields": {
+            "first_name": "individual_first_name3",
+            "last_name": "individual_last_name3",
+            "password": "pbkdf2_sha256$216000$SxgXqgFLgmtI$ISaCd0HIZxzVsQ1zOrTw19HiVDP9u/k2Xl3eyEMK/xY=",
+            "user_type": 1,
+            "username": "individual3@test.com"
+        },
+        "model": "shipping_backend.user",
+        "pk": 4
+    },
+    {
+        "fields": {
+            "first_name": "individual_first_name4",
+            "last_name": "individual_last_name4",
+            "password": "pbkdf2_sha256$216000$SxgXqgFLgmtI$ISaCd0HIZxzVsQ1zOrTw19HiVDP9u/k2Xl3eyEMK/xY=",
+            "user_type": 1,
+            "username": "individual4@test.com"
+        },
+        "model": "shipping_backend.user",
+        "pk": 5
+    },
+    {
+        "fields": {
+            "first_name": "broker_first_name0",
+            "last_name": "broker_last_name0",
+            "password": "pbkdf2_sha256$216000$SxgXqgFLgmtI$ISaCd0HIZxzVsQ1zOrTw19HiVDP9u/k2Xl3eyEMK/xY=",
+            "user_type": 2,
+            "username": "broker0@test.com"
+        },
+        "model": "shipping_backend.user",
+        "pk": 6
+    },
+    {
+        "fields": {
+            "first_name": "broker_first_name1",
+            "last_name": "broker_last_name1",
+            "password": "pbkdf2_sha256$216000$SxgXqgFLgmtI$ISaCd0HIZxzVsQ1zOrTw19HiVDP9u/k2Xl3eyEMK/xY=",
+            "user_type": 2,
+            "username": "broker1@test.com"
+        },
+        "model": "shipping_backend.user",
+        "pk": 7
+    },
+    {
+        "fields": {
+            "first_name": "broker_first_name2",
+            "last_name": "broker_last_name2",
+            "password": "pbkdf2_sha256$216000$SxgXqgFLgmtI$ISaCd0HIZxzVsQ1zOrTw19HiVDP9u/k2Xl3eyEMK/xY=",
+            "user_type": 2,
+            "username": "broker2@test.com"
+        },
+        "model": "shipping_backend.user",
+        "pk": 8
+    },
+    {
+        "fields": {
+            "first_name": "broker_first_name3",
+            "last_name": "broker_last_name3",
+            "password": "pbkdf2_sha256$216000$SxgXqgFLgmtI$ISaCd0HIZxzVsQ1zOrTw19HiVDP9u/k2Xl3eyEMK/xY=",
+            "user_type": 2,
+            "username": "broker3@test.com"
+        },
+        "model": "shipping_backend.user",
+        "pk": 9
+    },
+    {
+        "fields": {
+            "first_name": "broker_first_name4",
+            "last_name": "broker_last_name4",
+            "password": "pbkdf2_sha256$216000$SxgXqgFLgmtI$ISaCd0HIZxzVsQ1zOrTw19HiVDP9u/k2Xl3eyEMK/xY=",
+            "user_type": 2,
+            "username": "broker4@test.com"
+        },
+        "model": "shipping_backend.user",
+        "pk": 10
+    },
+    {
+        "fields": {
+            "first_name": "commercial_first_name0",
+            "last_name": "commercial_last_name0",
+            "password": "pbkdf2_sha256$216000$SxgXqgFLgmtI$ISaCd0HIZxzVsQ1zOrTw19HiVDP9u/k2Xl3eyEMK/xY=",
+            "user_type": 3,
+            "username": "commercial0@test.com"
+        },
+        "model": "shipping_backend.user",
+        "pk": 11
+    },
+    {
+        "fields": {
+            "first_name": "commercial_first_name1",
+            "last_name": "commercial_last_name1",
+            "password": "pbkdf2_sha256$216000$SxgXqgFLgmtI$ISaCd0HIZxzVsQ1zOrTw19HiVDP9u/k2Xl3eyEMK/xY=",
+            "user_type": 3,
+            "username": "commercial1@test.com"
+        },
+        "model": "shipping_backend.user",
+        "pk": 12
+    },
+    {
+        "fields": {
+            "first_name": "commercial_first_name2",
+            "last_name": "commercial_last_name2",
+            "password": "pbkdf2_sha256$216000$SxgXqgFLgmtI$ISaCd0HIZxzVsQ1zOrTw19HiVDP9u/k2Xl3eyEMK/xY=",
+            "user_type": 3,
+            "username": "commercial2@test.com"
+        },
+        "model": "shipping_backend.user",
+        "pk": 13
+    },
+    {
+        "fields": {
+            "first_name": "commercial_first_name3",
+            "last_name": "commercial_last_name3",
+            "password": "pbkdf2_sha256$216000$SxgXqgFLgmtI$ISaCd0HIZxzVsQ1zOrTw19HiVDP9u/k2Xl3eyEMK/xY=",
+            "user_type": 3,
+            "username": "commercial3@test.com"
+        },
+        "model": "shipping_backend.user",
+        "pk": 14
+    },
+    {
+        "fields": {
+            "first_name": "commercial_first_name4",
+            "last_name": "commercial_last_name4",
+            "password": "pbkdf2_sha256$216000$SxgXqgFLgmtI$ISaCd0HIZxzVsQ1zOrTw19HiVDP9u/k2Xl3eyEMK/xY=",
+            "user_type": 3,
+            "username": "commercial4@test.com"
+        },
+        "model": "shipping_backend.user",
+        "pk": 15
+    },
+    {
+        "fields": {
+            "first_name": "registrar_first_name0",
+            "last_name": "registrar_last_name0",
+            "password": "pbkdf2_sha256$216000$SxgXqgFLgmtI$ISaCd0HIZxzVsQ1zOrTw19HiVDP9u/k2Xl3eyEMK/xY=",
+            "user_type": 4,
+            "username": "registrar0@test.com"
+        },
+        "model": "shipping_backend.user",
+        "pk": 16
+    },
+    {
+        "fields": {
+            "first_name": "registrar_first_name1",
+            "last_name": "registrar_last_name1",
+            "password": "pbkdf2_sha256$216000$SxgXqgFLgmtI$ISaCd0HIZxzVsQ1zOrTw19HiVDP9u/k2Xl3eyEMK/xY=",
+            "user_type": 4,
+            "username": "registrar1@test.com"
+        },
+        "model": "shipping_backend.user",
+        "pk": 17
+    },
+    {
+        "fields": {
+            "first_name": "registrar_first_name2",
+            "last_name": "registrar_last_name2",
+            "password": "pbkdf2_sha256$216000$SxgXqgFLgmtI$ISaCd0HIZxzVsQ1zOrTw19HiVDP9u/k2Xl3eyEMK/xY=",
+            "user_type": 4,
+            "username": "registrar2@test.com"
+        },
+        "model": "shipping_backend.user",
+        "pk": 18
+    },
+    {
+        "fields": {
+            "first_name": "registrar_first_name3",
+            "last_name": "registrar_last_name3",
+            "password": "pbkdf2_sha256$216000$SxgXqgFLgmtI$ISaCd0HIZxzVsQ1zOrTw19HiVDP9u/k2Xl3eyEMK/xY=",
+            "user_type": 4,
+            "username": "registrar3@test.com"
+        },
+        "model": "shipping_backend.user",
+        "pk": 19
+    },
+    {
+        "fields": {
+            "first_name": "registrar_first_name4",
+            "last_name": "registrar_last_name4",
+            "password": "pbkdf2_sha256$216000$SxgXqgFLgmtI$ISaCd0HIZxzVsQ1zOrTw19HiVDP9u/k2Xl3eyEMK/xY=",
+            "user_type": 4,
+            "username": "registrar4@test.com"
+        },
+        "model": "shipping_backend.user",
+        "pk": 20
+    }
+]

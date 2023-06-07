@@ -1,0 +1,48 @@
+[
+  {
+    "model": "shipping_backend.vessel",
+    "pk": 1,
+    "fields": {
+      "ship_name": "TestShip1",
+      "ship_type": 1,
+      "tonnage": 100,
+      "imo_num": "ABC1234567",
+      "joint_owners": [["owner0", "100", "UK Citizen"]],
+      "prop_method": 1,
+      "prop_power": 10,
+      "num_engine": 1, 
+      "num_hull": 1, 
+      "port": 2,
+      "builder_name": "Bob the builer",
+      "builder_addr": "123 street",
+      "builder_yard_no": 1,
+      "date_created": "2020-10-28",
+      "build_date": "2020-10-28",
+      "keel_date": "2020-10-18",
+      "was_deleted": false
+    }
+  }, 
+  {
+    "model": "shipping_backend.vessel",
+    "pk": 2,
+    "fields": {
+      "ship_name": "TestShip2",
+      "ship_type": 2,
+      "tonnage": 1000,
+      "imo_num": "BBC1234567",
+      "joint_owners": [["owner1", "100", "British Overseas Citizen"]],
+      "prop_method": 2,
+      "prop_power": 20,
+      "num_engine": 2, 
+      "num_hull": 2, 
+      "port": 1,
+      "builder_name": "Aob the builer",
+      "builder_addr": "223 street",
+      "builder_yard_no": 1,
+      "date_created": "2020-10-28",
+      "build_date": "2020-10-28",
+      "keel_date": "2020-10-18",
+      "was_deleted": false
+    }
+  }
+]
